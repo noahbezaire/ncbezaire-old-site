@@ -892,8 +892,8 @@
 }
 
 .flipInX {
-  -webkit-backface-visibility: visible !important;
-  backface-visibility: visible !important;
+  -webkit-backface-visibility: visible ;
+  backface-visibility: visible ;
   animation-name: flipInX;
 }
 
@@ -924,8 +924,8 @@
 }
 
 .flipInY {
-  -webkit-backface-visibility: visible !important;
-  backface-visibility: visible !important;
+  -webkit-backface-visibility: visible ;
+  backface-visibility: visible ;
   animation-name: flipInY;
 }
 
@@ -947,8 +947,8 @@
 
 .flipOutX {
   animation-name: flipOutX;
-  -webkit-backface-visibility: visible !important;
-  backface-visibility: visible !important;
+  -webkit-backface-visibility: visible ;
+  backface-visibility: visible ;
 }
 
 @keyframes flipOutY {
@@ -968,8 +968,8 @@
 }
 
 .flipOutY {
-  -webkit-backface-visibility: visible !important;
-  backface-visibility: visible !important;
+  -webkit-backface-visibility: visible ;
+  backface-visibility: visible ;
   animation-name: flipOutY;
 }
 
